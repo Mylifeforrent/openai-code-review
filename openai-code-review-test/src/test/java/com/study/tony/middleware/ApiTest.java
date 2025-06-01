@@ -9,12 +9,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @Slf4j
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@SpringBootTest(classes = Application.class)
 public class ApiTest {
 
     @Test
     public void test() {
-        System.out.println(Integer.parseInt("aaaa"));
+        System.out.println(Integer.parseInt("666"));
     }
 
 }
