@@ -1,17 +1,16 @@
-package plus.gaga.middleware.sdk;
+package com.study.tony.middleware;
 
 import com.alibaba.fastjson2.JSON;
-import plus.gaga.middleware.sdk.domain.model.ChatCompletionRequest;
-import plus.gaga.middleware.sdk.domain.model.ChatCompletionSyncResponse;
-import plus.gaga.middleware.sdk.domain.model.Model;
-import plus.gaga.middleware.sdk.types.utils.BearerTokenUtils;
+import com.study.tony.middleware.model.ChatCompletionRequest;
+import com.study.tony.middleware.model.ChatCompletionSyncResponse;
+import com.study.tony.middleware.model.Model;
+import com.study.tony.middleware.utils.BearerTokenUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
-import java.net.ProtocolException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
