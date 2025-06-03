@@ -52,6 +52,7 @@ public class OpenAiCodeReview {
         System.out.println("writeLog：" + logUrl);
     }
 
+
     private static String writeLog(String token, String log) throws Exception {
         Git git = Git.cloneRepository()
                 .setURI("https://github.com/Mylifeforrent/openai-code-review-log.git")
