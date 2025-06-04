@@ -102,7 +102,7 @@
                     <archive>
                         <manifest>
                             <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-                            <mainClass>com.study.tony.middleware.OpenAICodeReview</mainClass>
+                            <mainClass>com.study.tony.middleware.OpenAiCodeReview</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

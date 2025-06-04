@@ -35,7 +35,7 @@
           <archive>
             <manifest>
               <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
-              <mainClass>plus.gaga.middleware.sdk.OpenAiCodeReview</mainClass>
+              <mainClass>com.study.tony.middleware.OpenAiCodeReview</mainClass>
             </manifest>
           </archive>
         </configuration>
