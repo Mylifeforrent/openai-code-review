@@ -3,10 +3,10 @@ name: Run Java Git Diff By Local
 on:
   push:
     branches:
-      - main-close
+      - master-close
   pull_request:
     branches:
-      - main-close
+      - master-close
 
 jobs:
   build-and-run:
@@ -27,5 +27,5 @@ jobs:
       - name: Run Java code
         run: |
           cd openai-code-review-sdk/src/main/java
-          javac com/study/tony/middleware/OpenAiCodeReview.java
-          java com.study.tony.middleware.OpenAiCodeReview
+          javac plus/gaga/middleware/sdk/OpenAiCodeReview.java
+          java plus.gaga.middleware.sdk.OpenAiCodeReview
